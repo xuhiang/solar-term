@@ -1,0 +1,31 @@
+.showcase{
+    background-image: url(../image/清明节实景二维码.png);
+    height: 500px;
+    height: 100vh;
+	background-size: cover;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+.showcase h1{
+    color: #fff;
+    font-size: 100px;
+    letter-spacing: 1px;
+}
+.song{
+    margin: 10px auto;
+    width: 90%;
+    display: flex;
+}
+.song h1{
+    text-align: center;
+    line-height: 50px;
+}
+.song p{
+    font-size: 20px;
+    line-height: 40px;
+}
+.song_m{
+    margin-left: 20px;
+}

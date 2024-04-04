@@ -1,0 +1,89 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+@font-face {
+	font-family: 'icomoon';
+	src:  url('fonts/icomoon.eot?75ykk1');
+	src:  url('fonts/icomoon.eot?75ykk1#iefix') format('embedded-opentype'),
+	  url('../fonts/icomoon.ttf?75ykk1') format('truetype'),
+	  url('../fonts/icomoon.woff?75ykk1') format('woff'),
+	  url('../fonts/icomoon.svg?75ykk1#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+	font-display: block;
+  }
+li {
+	list-style: none;
+}
+.w {
+	width: 1200px;
+	margin: 0 auto;
+}
+.fl {
+	float: left;
+}
+.fr {
+	float: right;
+}
+.font-common {
+	font-family: 'icomoon';
+}
+a,h1 {
+	text-decoration: none;
+	color: #666;
+}
+.current,
+a:hover {
+	color: #058a1f;
+}
+.bk {
+	outline: none;
+}
+img {
+	vertical-align: middle;
+}
+.clearfix::after {
+	content: "";
+	display: block;
+	height: 0;
+	visibility: hidden;
+	clear: both;
+}
+em {
+	font-style: normal;
+}
+.btn{
+    color: #fff;
+    background-color: rgb(33, 149, 1);
+    width: 100px;
+    height: 50px;
+    margin-top: 20px;
+	text-align: center;
+}
+.btn:hover{
+	background-color: #fff;
+	border: #058a1f solid 2px;
+}
+.btn a{
+	padding: 10px 30px;
+	line-height: 50px;
+}
+button{
+	height: 30px;
+	width: 60px;
+	background-color: #fff;
+	border: none;
+	margin: 1px 10px;
+	border-radius: 100px;
+}
+button:hover{
+	background-color: #0c9625;
+	color: #fff;
+}
+.clear{
+    height: 102px;
+}
+body{
+	background-color: #e8e4e4;
+}

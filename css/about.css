@@ -1,0 +1,17 @@
+.logo_about{
+    width: 170px;
+    height: 100px;
+    margin-left: 500px;
+}
+.about{
+    width: 80%;
+    margin: 0 auto;
+}
+.h{
+    font-size: 30px;
+    color: #12ec49;
+}
+.icon_make{
+    display: flex;
+    margin-top: 20px;
+}
