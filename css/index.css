@@ -29,3 +29,12 @@
 .song_m{
     margin-left: 20px;
 }
+/* 媒体查询 */
+.song_m{
+    margin-left: 20px;
+}
+@media screen and (max-width:1000px){
+    .song img{
+        display: none;
+    }
+}
