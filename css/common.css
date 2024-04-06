@@ -74,3 +74,43 @@
 .copy p{
     color: #ffffff;
 }
+/* 媒体查询 */
+.m_nav{
+    display: none;
+}
+.m_f{
+    display: none;
+}
+@media screen and (max-width:1000px){
+    .header{
+        display: none;
+    }
+    footer{
+        display:none
+    }
+    .m_nav{
+        display: block;
+        width: 100%;
+        text-align: center;
+        background-color: #fff;
+    }
+    .m_nav ul{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .m_nav ul li {
+        padding: 20px;
+    }
+    .m_f{
+        display: block;
+    }
+    .m_f ul{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .m_f ul li{
+        padding: 10px;
+    }
+}
